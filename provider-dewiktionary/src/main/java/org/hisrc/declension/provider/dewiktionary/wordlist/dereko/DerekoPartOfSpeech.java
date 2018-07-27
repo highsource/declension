@@ -114,9 +114,9 @@ public enum DerekoPartOfSpeech {
 	@JsonProperty("PRELAT")
 	ATTRIBUIERENDES_RELATIVPRONOMEN,
 
-	// TODO
+	// PROAV | Pronominaladverb | Deswegen/PROAV sprechen wir darüber/PROAV
 	@JsonProperty("PROAV")
-	PROAV,
+	PRONOMINALADVERB_1,
 
 	// PRF | reflexives Personalpronomen | sich, einander, dich, mir
 	@JsonProperty("PRF")
