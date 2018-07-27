@@ -2,7 +2,9 @@ package org.hisrc.declension.provider.dewiktionary.wordlist.dereko;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-// Quelle: http://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/TagSets/stts-table.html
+// Quellen:
+// * http://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/TagSets/stts-table.html
+// * https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/mitarbeiter-innen/hagen/STTS_Tagset_Tiger
 public enum DerekoPartOfSpeech {
 
 	// ADJA | attributives Adjektiv | [das] große [Haus]
