@@ -10,6 +10,10 @@
 	</parent>
 	<dependencies>
 		<dependency>
+			<groupId>org.dkpro.jwktl</groupId>
+			<artifactId>dkpro-jwktl</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>

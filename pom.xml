@@ -56,7 +56,7 @@
 	</properties>
 	<dependencyManagement>
 		<dependencies>
-			<dependency>
+			<!--dependency>
 				<groupId>org.hisrc.declension</groupId>
 				<artifactId>declension-core</artifactId>
 				<version>${project.version}</version>
@@ -65,6 +65,11 @@
 				<groupId>org.hisrc.declension</groupId>
 				<artifactId>declension-api</artifactId>
 				<version>${project.version}</version>
+			</dependency-->
+			<dependency>
+				<groupId>org.dkpro.jwktl</groupId>
+				<artifactId>dkpro-jwktl</artifactId>
+				<version>1.1.0</version>
 			</dependency>
 
 			<!--dependency>
