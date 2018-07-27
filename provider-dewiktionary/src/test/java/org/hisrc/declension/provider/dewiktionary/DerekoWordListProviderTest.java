@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import org.hisrc.declension.provider.dewiktionary.wordlist.dereko.DerekoPartOfSpeech;
+import org.hisrc.declension.model.de.stts.STTSUnterkategories;
 import org.hisrc.declension.provider.dewiktionary.wordlist.dereko.DerekoWordListEntry;
 import org.hisrc.declension.provider.dewiktionary.wordlist.dereko.DerekoWordListProvider;
 import org.junit.Test;
@@ -25,7 +25,7 @@ public class DerekoWordListProviderTest {
 			final AtomicInteger nounsCount = new AtomicInteger();
 			wordListProvider.loadWordList(wordListEntry -> {
 				DerekoWordListEntry derekoWordListEntry = (DerekoWordListEntry) wordListEntry;
-				if (DerekoPartOfSpeech.NORMALES_NOMEN == derekoWordListEntry.getPartOfSpeech()) {
+				if (STTSUnterkategories.NORMALES_NOMEN == derekoWordListEntry.getPartOfSpeech()) {
 					nounsCount.incrementAndGet();
 				}
 			});

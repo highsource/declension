@@ -2,6 +2,7 @@ package org.hisrc.declension.provider.dewiktionary.wordlist.dereko;
 
 import java.util.Objects;
 
+import org.hisrc.declension.model.de.stts.STTSUnterkategories;
 import org.hisrc.declension.provider.dewiktionary.wordlist.WordListEntry;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
@@ -16,7 +17,7 @@ public class DerekoWordListEntry extends WordListEntry {
 	@JsonProperty("additional_form")
 	private String additionalForm;
 	@JsonProperty("part_of_speech")
-	private DerekoPartOfSpeech partOfSpeech;
+	private STTSUnterkategories partOfSpeech;
 	@JsonProperty("frequency")
 	private double frequency;
 	
@@ -27,7 +28,7 @@ public class DerekoWordListEntry extends WordListEntry {
 			@JsonProperty("additional_form")
 			String additionalForm,
 			@JsonProperty("part_of_speech")
-			DerekoPartOfSpeech partOfSpeech,
+			STTSUnterkategories partOfSpeech,
 			@JsonProperty("frequency")
 			double frequency) {
 		this.baseForm = baseForm;
@@ -41,7 +42,7 @@ public class DerekoWordListEntry extends WordListEntry {
 	public String getAdditionalForm() {
 		return additionalForm;
 	}
-	public DerekoPartOfSpeech getPartOfSpeech() {
+	public STTSUnterkategories getPartOfSpeech() {
 		return partOfSpeech;
 	}
 	public double getFrequency() {
