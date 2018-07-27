@@ -1,10 +1,8 @@
 package org.hisrc.declension.provider.dewiktionary.jwktl;
 
 import java.io.File;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
-import java.util.Set;
 
 import org.junit.Test;
 
@@ -14,7 +12,6 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
 import de.tudarmstadt.ukp.jwktl.api.filter.IWiktionaryEntryFilter;
-import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.api.util.IWiktionaryIterator;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
 
