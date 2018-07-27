@@ -3,8 +3,6 @@ package org.hisrc.declension.provider.dewiktionary.wordlist.dereko;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.HashSet;
-import java.util.Set;
 import java.util.function.Consumer;
 
 import org.hisrc.declension.provider.dewiktionary.wordlist.WordListEntry;
